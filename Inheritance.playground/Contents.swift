@@ -1,8 +1,7 @@
 import UIKit
 
 /*
- 
- Inheritance → the superclass initializer runs first, then the subclass initializers run in order afterwards.
+ Inheritance → The superclass initializer runs first, then the subclass initializers run in order afterwards.
  */
 
 class Animal {
@@ -49,3 +48,16 @@ print(cat.name!,cat.voice!)
  cat init() called
  night miav
  */
+
+/*
+ Override -> allows a subclass to provide a custom implementation of a method inherited from its superclass.
+ */
+
+print("--------------------------")
+print("OVERRIDE")
+
+var employee = Employee()
+employee.work()
+
+var manager = Manager()
+manager.work()
